@@ -18,7 +18,7 @@
         </div>
     </div>
     <div id='notes'>
-        <p>Your tasting notes will not be saved unless you first <a href='login.html'>sign in</a>.</p>
+        <p>Your tasting notes will not be saved unless you first <a href='login.html' id='signtag'>sign in</a>.</p>
     </div>
     <div id='form'>
         <div id='form-head'>ADD A NEW ENTRY</div>
@@ -36,10 +36,10 @@
             </div>
             <div id='form-body-col-2'>
                 <div>
-                    <input class="entry-tags" type='text' name='item' value='Tequila Esperanto'>
+                    <input class="entry-tags" type='text' name='item' placeholder='Tequila Esperanto'>
                 </div>
                 <div>
-                    <input class="entry-tags" type='text' name='type' value='Reposado'>
+                    <input class="entry-tags" type='text' name='type' placeholder='Reposado'>
                 </div>
                 <div>
                     <select class="entry-tags" name='rating'>
@@ -56,12 +56,11 @@
                     </select>
                 </div>
                 <div>
-                    <textarea class="entry-tags" rows='6' cols='21'></textarea>
-
-                </div>  
+                    <textarea class="entry-tags" rows='6' cols='21' placeholder='Lots of agave.  Hints of orange peel and lime.  Excellent for sipping!'></textarea>
+                </div>
                 <div>
-                        <input id='subbutton' type='submit'>
-                    </div>
+                    <input id='subbutton' type='submit'>
+                </div>
             </div>
             </form>
         </div>
