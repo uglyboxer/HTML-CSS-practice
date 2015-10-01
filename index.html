@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>TASTER</title>
+    <title>TASTE</title>
     <link rel='stylesheet' href='main.css'>
 </head>
 
@@ -13,12 +13,10 @@
             <a class='links' href='blog.html'>Blog</a>
             <a class='links' href='login.html'>Sign in</a>
         </div>
-        <div class='headline'>
-            <p>Keep track of the things you like and the things you dont</p>
-        </div>
+        <h1>Keep track of the things you like and the things you dont</h1>
     </div>
     <div class='notes'>
-        <p>Your tasting notes will not be saved unless you first <a href='login.html' class='signtag'>sign in</a>.</p>
+        <h2>Your tasting notes will not be saved unless you first <a href='login.html' class='signtag'>sign in</a>.</h2>
     </div>
     <div class='form'>
         <div class='form-head'>ADD A NEW ENTRY</div>
@@ -26,23 +24,11 @@
             <div class='form-body-col-1'>
                 <form>
                     <p class='form-tags'>Item Name:
-                    </p>
+                    </p> <input class="entry-tags" type='text' name='item' placeholder='Tequila Esperanto'>
                     <p class='form-tags'>Type:
-                    </p>
+                    </p><input class="entry-tags" type='text' name='type' placeholder='Reposado'>
                     <p class='form-tags'>Rating:
-                    </p>
-                    <p class='form-tags'>Notes:
-                    </p>
-            </div>
-            <div class='form-body-col-2'>
-                <div>
-                    <input class="entry-tags" type='text' name='item' placeholder='Tequila Esperanto'>
-                </div>
-                <div>
-                    <input class="entry-tags" type='text' name='type' placeholder='Reposado'>
-                </div>
-                <div>
-                    <select class="entry-tags" name='rating'>
+                    </p><select class="entry-tags" name='rating'>
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -54,13 +40,15 @@
                         <option>9</option>
                         <option>10</option>
                     </select>
-                </div>
-                <div>
-                    <textarea class="entry-tags" rows='6' cols='21' placeholder='Lots of agave.  Hints of orange peel and lime.  Excellent for sipping!'></textarea>
-                </div>
-                <div>
+                    <div class='notes'>
+                    <p class='form-tags'>Notes:
+                    </p><textarea class="entry-tags" rows='6' cols='21' placeholder='Lots of agave.  Hints of orange peel and lime.  Excellent for sipping!'></textarea>
+                    </div>
+            </div>
+
+
                     <input class='subbutton' type='submit'>
-                </div>
+             
             </div>
             </form>
         </div>
