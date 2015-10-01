@@ -11,7 +11,7 @@
         margin: 0;
     }
     
-    #header {
+    .header {
         background-color: #1d818f;
         color: white;
  
@@ -20,12 +20,12 @@
 
     }
     
-    #pagename {
+    .pagename {
         float: left;
         padding: 10px 10px;
     }
     
-    #nav {
+    .nav {
         float: right;
         padding: 10px 10px;
         font-size: .75em;
@@ -41,7 +41,7 @@
         margin: 8px;
     }
     
-    #headline {
+    .headline {
         font-size: 2.1em;
         clear: left;
         text-align: center;
@@ -50,18 +50,18 @@
                font-weight: bold;
     }
     
-    #notes {
+    .notes {
         text-align: center;
         margin: 15px;
         padding: 0;
     }
 
-    #signtag, #signtag:visited {
+    .signtag, #signtag:visited {
         text-decoration: underline;
         color: #1d818f;
     }
     
-    #form {
+    .form {
         float: left;
         background-color: white;
         margin: 14px;
@@ -71,18 +71,18 @@
         font-size: .8em;
     }
     
-    #form-head {
+    .form-head {
         text-align: center;
         background-color: #FD8B64;
         padding: 2%;
         margin: 0;
     }
     
-    #form-body {
+    .form-body {
         padding: 5px;
     }
     
-    #form-body-col-1 {
+    .form-body-col-1 {
         float: left;
         background-color: white;
         padding: 0 0 0 5px;
@@ -104,7 +104,7 @@
         width: 80%;
     }
     
-    #form-body-col-2 {
+    .form-body-col-2 {
         float: right;
         background-color: white;
         padding: 0;
@@ -122,7 +122,7 @@
         width: 80%;
     }
     
-    #subbutton {
+    .subbutton {
         clear: both;
         color: white;
         background-color: #1d818f;
